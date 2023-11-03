@@ -12,6 +12,6 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
 
-name: Cache
-uses: actions/cache@v3.3.2
+      - name: Cache
+      - uses: actions/cache@v3.3.2
             
